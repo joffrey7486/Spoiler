@@ -1,0 +1,24 @@
+body{
+    color: #424242;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+button{
+    background-color: darkgreen;
+    color: #C5B392;
+    border-radius: 10%;
+}
+.spoiler-content{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: opacity 1s;	
+    overflow: hidden;
+}
+.spoiler-content.visible{
+    display: inline;
+    width: auto;
+    height: auto;
+    opacity: 1;
+}
